@@ -1,0 +1,64 @@
+body {
+    background-color: #181a1b;
+}
+
+.btn-dark {
+    border-color: #807769;
+}
+
+.center {
+    margin: 0 auto;
+    display:block;
+}
+
+.chartCard {
+    width:100vw;
+    height: calc(100vh - 40px);
+    background-color: #391523;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.chartBox {
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 3px #ab003a;
+    background-color: #181a1b;
+}
+
+.innerCanvas {
+    margin:0 auto;
+    height:100%;
+    width:100%;
+}
+
+.color1 { 
+    background: #db3b61; 
+}
+	
+.color2 { 
+	background: #ef3f61; 
+}
+
+.color3 { 
+	background: #3a3a59; 
+}
+
+.color4 { 
+	background: #391523;
+}
+
+select::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+
+select::-webkit-scrollbar {
+    background-color:#202324;
+    color:#aba499;
+}
+
+select::-webkit-scrollbar-corner {
+    background-color:#181a1b;
+}
